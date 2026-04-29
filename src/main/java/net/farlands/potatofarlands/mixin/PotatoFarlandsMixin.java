@@ -5,7 +5,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(OctavePerlinNoiseSampler.class)
-public class ExampleMixin {
+public class PotatoFarlandsMixin {
 	@Overwrite
     public static double maintainPrecision (double d) {return d;}
 }

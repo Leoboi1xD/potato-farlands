@@ -3,7 +3,7 @@
 	"package": "net.farlands.potatofarlands.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "PotatoFarlandsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
