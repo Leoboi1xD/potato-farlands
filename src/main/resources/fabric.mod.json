@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "potatofarlands",
+	"version": "${version}",
+	"name": "Potato Farlands",
+	"description": "This mod allows you to enable the Far Lands in the Potato April Fools Snapshot, Thanks to Infa65 for making the Icon!",
+	"authors": [
+		"Indigo227"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/potatofarlands/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.farlands.potatofarlands.PotatoFarlands"
+		]
+	},
+	"mixins": [
+		"potatofarlands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.5-alpha.24.12.potato",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
